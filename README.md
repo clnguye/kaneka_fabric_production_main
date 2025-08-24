@@ -1,1 +1,2 @@
-# kaneka_fabric_production_main
+### kaneka_fabric_production_main
+This is a sample repository for Kaneka Fabric project. This is repository is for Production_Main workspace which is part of the Production domain. The Production domain has three workspaces: Production_Data, Production_Main, and Production_Sandbox. Production_Main workspace's artifacts including reports, dashboards, paginated reports, and user-defined semantic models are managed here.
