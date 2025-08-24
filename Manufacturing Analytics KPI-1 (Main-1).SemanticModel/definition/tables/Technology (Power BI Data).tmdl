@@ -1,0 +1,126 @@
+table 'Technology (Power BI Data)'
+	lineageTag: 4c0abdb9-129e-42ba-9233-19bfa7e04289
+
+	column Technology
+		dataType: string
+		lineageTag: 14207dc1-cad8-49d7-8095-1c6c35f89a9f
+		summarizeBy: none
+		sourceColumn: Technology
+
+		annotation SummarizationSetBy = Automatic
+
+	column Division
+		dataType: string
+		lineageTag: 99e45086-6b84-45a7-874c-7af5870ce49c
+		summarizeBy: none
+		sourceColumn: Division
+
+		annotation SummarizationSetBy = Automatic
+
+	column Value
+		dataType: string
+		lineageTag: 651c766f-45d0-48ec-966a-ed98fa8e8331
+		summarizeBy: none
+		sourceColumn: Value
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Use Case #'
+		dataType: string
+		lineageTag: bf5d9788-450e-4f8d-9f1a-054858af2e8a
+		summarizeBy: none
+		sourceColumn: Use Case #
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status#
+		dataType: string
+		lineageTag: e229580c-92bd-4186-99bc-12bcd5c83b91
+		summarizeBy: none
+		sourceColumn: Status#
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Potential Savings $'
+		dataType: int64
+		formatString: 0
+		lineageTag: 298c984e-8104-4779-8846-6bbef0374164
+		summarizeBy: sum
+		sourceColumn: Potential Savings $
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Target Savings'
+		dataType: string
+		lineageTag: b945bf84-4998-4f32-832c-135ee131bd9f
+		summarizeBy: none
+		sourceColumn: Target Savings
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'KPI Savings $ realized'
+		dataType: int64
+		formatString: 0
+		lineageTag: 85f972fa-9911-4a2f-a5dd-d3eadaaa29aa
+		summarizeBy: sum
+		sourceColumn: KPI Savings $ realized
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Use Case Name'
+		dataType: string
+		lineageTag: 9c5b8434-536e-4422-91f3-3eca53f3a355
+		summarizeBy: none
+		sourceColumn: Use Case Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Use Case Overview'
+		dataType: string
+		lineageTag: 72350851-5416-4d99-bb9d-85c2b82e9094
+		summarizeBy: none
+		sourceColumn: Use Case Overview
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: 822cae85-ea62-4e4d-8056-a848c8fad6ea
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Completion FY'
+		dataType: string
+		lineageTag: 634e444a-85bb-4702-b081-e3686064e697
+		summarizeBy: none
+		sourceColumn: Completion FY
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'KPI Comment'
+		dataType: string
+		lineageTag: b4c2fe70-c48b-4b3a-9d8f-5450a09ddcfe
+		summarizeBy: none
+		sourceColumn: KPI Comment
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Technology (Power BI Data)' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(Web.Contents("https://kanekana.sharepoint.com/sites/dt/PMO/Project%20Execution/Active%20Projects/Operations%20&%20Maintenance/SEEQ/2025%20Manufacturing%20Analytics%20KPI%20(PowerBI)_Main.xlsx"), null, false),
+				    #"Power BI Data_sheet" = Source{[Item="Power BI Data",Kind="Sheet"]}[Data],
+				    #"Removed Bottom Rows" = Table.RemoveLastN(#"Power BI Data_sheet", 12),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Removed Bottom Rows", {"Column2", "Column3", "Column4", "Column5", "Column6", "Column7", "Column8", "Column9", "Column10", "Column11", "Column12", "Column13", "Column14"}),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Removed Other Columns", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Technology", type text}, {"Division", type text}, {"Value", type text}, {"Use Case #", type text}, {"Status#", type text}, {"Potential Savings $", Int64.Type}, {"Target Savings", type text}, {"KPI Savings $ realized", Int64.Type}, {"Use Case Name", type text}, {"Use Case Overview", type text}, {"Status", type text}, {"Completion FY", type any}, {"KPI Comment", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

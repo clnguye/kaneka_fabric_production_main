@@ -1,0 +1,4 @@
+relationship ed49f413-e185-1126-1be5-ca79ad736af8
+	fromColumn: vw_nutrient_kpi.KPI_Description
+	toColumn: KPIDim.KPI
+

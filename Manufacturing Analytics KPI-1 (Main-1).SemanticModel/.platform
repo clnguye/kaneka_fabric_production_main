@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Manufacturing Analytics KPI-1 (Main-1)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d155ffb9-8eec-9139-4e14-964fe44f3451"
+  }
+}

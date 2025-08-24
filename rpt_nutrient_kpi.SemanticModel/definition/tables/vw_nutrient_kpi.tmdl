@@ -1,0 +1,103 @@
+table vw_nutrient_kpi
+	lineageTag: 7d81fba3-cf35-47a6-9eb6-18cbfed6afe6
+
+	measure mValue = AVERAGE(vw_nutrient_kpi[Value])
+		lineageTag: 5e12212b-6778-4f51-804e-f75085fcdd2f
+
+		formatStringDefinition = ```
+				VAR KPI_DESC = SELECTEDVALUE(vw_nutrient_kpi[KPI_Description])
+				VAR _result = 
+				SWITCH(KPI_DESC,
+				"QH Production", "#0,.00K",
+				"Q10 Production", "#0,.00K",
+				"Net OEE", "#0.0%",
+				"Gross OEE", "#0.0%",
+				"Stream Factor", "#0.0%",
+				"Scheduled DT", "#,0",
+				"Trouble DT", "#0.0%",
+				"Total Packaging Yield", "#0.0%",
+				"Yield (QH)", "#0.0%",
+				"Yield (Q10)", "#0.0%",
+				"5S score", "#0.00",
+				"Cost Reduction", "$#0.",
+				"Variable cost Q10","$#0.",
+				"Variable cost QH","$#0.",
+				"Maintenance cost", "#0.%",
+				"Fixed Cost","#0.%",
+				"#0.0")
+				RETURN _result
+				```
+
+	measure mValue2 = AVERAGE(vw_nutrient_kpi[Value])
+		lineageTag: 3d7f45bd-c86f-4d1e-a6bd-f360b11e8870
+
+		formatStringDefinition = ""
+
+	column KPI_Description
+		dataType: string
+		lineageTag: da514e5e-18a7-411a-9063-9acc34698ed0
+		summarizeBy: none
+		sourceColumn: KPI_Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column Target
+		dataType: string
+		lineageTag: ae407130-0106-4e9f-9476-ea47d317bfa3
+		summarizeBy: none
+		sourceColumn: Target
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: string
+		lineageTag: 00301a3a-c255-4cf0-be69-d45d6c39a822
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: YearMonth
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearMonth
+		dataType: string
+		lineageTag: f1f9f652-f48c-44a8-9601-4bbfb51e926e
+		summarizeBy: none
+		sourceColumn: YearMonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column Value
+		dataType: double
+		lineageTag: ac415e95-0e0c-419a-9425-26c52df263b2
+		summarizeBy: sum
+		sourceColumn: Value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Timestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 2e3d5354-a002-4c45-9877-702808638ca9
+		summarizeBy: none
+		sourceColumn: Timestamp
+
+		annotation SummarizationSetBy = Automatic
+
+	partition vw_nutrient_kpi = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Databases("w7jbutomjgaerlyh3lemi7zi3y-qwqnumpodi2uvoqzzs4tsz3754.datawarehouse.fabric.microsoft.com"),
+				    wh_production = Source{[Name="wh_production"]}[Data],
+				    dbo_vw_nutrient_kpi = wh_production{[Schema="dbo",Item="vw_nutrient_kpi"]}[Data]
+				in
+				    dbo_vw_nutrient_kpi
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

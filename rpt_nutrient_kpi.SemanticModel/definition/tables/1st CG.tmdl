@@ -1,0 +1,105 @@
+table '1st CG'
+	lineageTag: 34c3970e-f68c-4f1b-a045-cfee1987ef1d
+
+	calculationGroup
+
+		calculationItem Item1 = SELECTEDMEASURE()
+
+	measure mNetOEE = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Net OEE"))
+		formatString: 0%;-0%;0%
+		lineageTag: 3201ec57-9a44-4736-866a-f4e55cde50d7
+
+	measure mGrossOEE = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Gross OEE"))
+		formatString: 0%;-0%;0%
+		lineageTag: 23d09bfe-1cae-4d4a-a33c-da47151424e1
+
+	measure mQ10ProductionActual = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Q10 Production" & vw_nutrient_kpi[Target] = "Actual Q10 kgs" ))
+		formatString: 0
+		lineageTag: 1c4b07f8-6306-4ed9-9c73-28aa74a7177b
+
+	measure mQ10ProductionPlanned = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Q10 Production" & vw_nutrient_kpi[Target] = "Planned Q10 kgs" ))
+		formatString: 0
+		lineageTag: d55ace4d-a5fd-4abd-8cab-a7110a563aed
+
+	measure mQHProductionActual = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "QH Production" & vw_nutrient_kpi[Target] = "Actual QH kgs" ))
+		formatString: 0
+		lineageTag: fb1bebea-f9cb-414b-8402-7d02081b4867
+
+	measure mQHProductionPlanned = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "QH Production" & vw_nutrient_kpi[Target] = "Planned QH kgs" ))
+		formatString: 0
+		lineageTag: 4f912915-a4fa-4c3e-bd4f-a397fc2949c2
+
+	measure mStreamFactor = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Stream Factor"))
+		formatString: 0%;-0%;0%
+		lineageTag: 9b9d4cd5-e043-4af3-aa2b-89d5e4f19ba9
+
+	measure mScheduledDT = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Scheduled DT"))
+		lineageTag: f9fd4658-3066-4428-8208-0577a3c8266f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure mTroubleDT = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Trouble DT"))
+		formatString: 0%;-0%;0%
+		lineageTag: c697081d-ca8a-4d34-9c61-77f34c4687b1
+
+	measure mTotalPackageYield = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Total Package Yield"))
+		formatString: 0%;-0%;0%
+		lineageTag: 6e9193be-04fa-493b-a797-077220509aec
+
+	measure mYieldQH = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Yield (QH)"))
+		formatString: 0%;-0%;0%
+		lineageTag: 3a99f926-dc2c-4f20-b1eb-b083382e6b6d
+
+	measure mYieldQ10 = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Yield (Q10)"))
+		formatString: 0%;-0%;0%
+		lineageTag: 37aa307b-c9a8-418e-b845-a75309ec09ce
+
+	measure m5SScore = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "5S score"))
+		lineageTag: 931b89ae-25b3-420d-8a00-9b7ee90f96d6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure mCostReduction = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Cost Reduction"))
+		lineageTag: 60363238-e066-4306-ae16-0f8daca6208a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure mVariableCostQ10Target = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Variable Cost Q10" & vw_nutrient_kpi[Target] = "Q10 prod. Target"))
+		formatString: 0
+		lineageTag: e73edcb0-7883-4492-9df3-1f81b58a03fe
+
+	measure mVariableCostQ10Actual = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Variable Cost Q10" & vw_nutrient_kpi[Target] = "Q10 Prod. Actual"))
+		formatString: 0
+		lineageTag: ad0f0c3c-13b9-4b29-9e93-188e9f4a0f0b
+
+	measure mVariableCostQH = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Variable Cost QH"))
+		lineageTag: dbb64c0f-2993-402b-9f1e-905ec92af4e8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure mMaintenanceCost = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Maintenance Cost"))
+		formatString: 0%;-0%;0%
+		lineageTag: 236fc6b0-22f6-4da5-af6c-1bb53d073d8f
+
+	measure mFixedCost = CALCULATE(AVERAGE(vw_nutrient_kpi[Value]),FILTER(vw_nutrient_kpi,vw_nutrient_kpi[KPI_Description] = "Fixed Cost"))
+		formatString: 0%;-0%;0%
+		lineageTag: 048743fa-4afe-4e0d-82ff-e445c96e3c87
+
+	column 'Format String'
+		dataType: string
+		lineageTag: 9560f0b3-cf47-48e8-8441-69350be11b70
+		summarizeBy: none
+		sourceColumn: Name
+		sortByColumn: Ordinal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ordinal
+		dataType: int64
+		formatString: 0
+		lineageTag: d8c33d89-0753-43d6-99d0-4df3c7dcc695
+		summarizeBy: sum
+		sourceColumn: Ordinal
+
+		annotation SummarizationSetBy = Automatic
+

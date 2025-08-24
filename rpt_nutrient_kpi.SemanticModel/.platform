@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "rpt_nutrient_kpi"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4d550582-06ac-ba54-44a5-acf814e34d96"
+  }
+}

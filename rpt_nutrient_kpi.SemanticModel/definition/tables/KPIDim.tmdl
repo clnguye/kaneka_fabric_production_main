@@ -1,0 +1,44 @@
+table KPIDim
+	lineageTag: 5d7c04a9-9ea7-4a90-a0a7-534c85df0e65
+
+	column KPI
+		dataType: string
+		lineageTag: 978211dc-07b0-400f-9b7d-055b6124e864
+		summarizeBy: none
+		sourceColumn: KPI
+		sortByColumn: Rank
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Rank
+		dataType: int64
+		formatString: 0
+		lineageTag: 7d6b3e87-9039-4931-aa9e-9886723b15a6
+		summarizeBy: none
+		sourceColumn: Rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column Target
+		dataType: string
+		lineageTag: 307a9385-214f-467f-b882-7e764e5c8207
+		summarizeBy: none
+		sourceColumn: Target
+
+		annotation SummarizationSetBy = Automatic
+
+	partition KPIDim = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("bZDLasMwEEV/ZTAUUghBsqM4XudRb9rGjSmUkIUqD6moK4EsQz+/GskpDXQxm3OuRsM9nbKGMzg4243Ka2uyecbDCMZYdp4HW9/KPEwpJvmEHp53u4CKMGtxF+mDs8Mw8WWMJ370DuUX7KXy1tEf9KaYnPrAbuyxg20b8CpM+qJ1dnzvMeGS1GKZnrTWyx4OUn3KizYXeNPYd7SSzrmGIoRZU98HWpHNF+JWcUaOsySrJMURBmUdkuFxIY98YwcPL/inLCqkuLb1Kp2WdK6iXBOXcuomF9V/gZo8dZSX6+gfpTYejTQqRciLeB5Lh+31dyhpM6nVrzr/AA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [KPI = _t, Rank = _t, Target = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"KPI", type text}, {"Rank", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

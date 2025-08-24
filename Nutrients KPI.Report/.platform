@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Nutrients KPI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c4fb8ef1-bc61-a4aa-485f-10eb8b2ae5fb"
+  }
+}

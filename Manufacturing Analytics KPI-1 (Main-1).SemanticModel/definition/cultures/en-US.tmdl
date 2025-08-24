@@ -1,0 +1,5496 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "power_BI_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Visible",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "power BI data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "BI data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "power bi information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "power bi fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "power bi info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "power bi statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "bi information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "bi fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "bi info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "bi statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "power bi document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "power bi figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.sl__no_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Sl. No."
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sl. no.": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sl. number .": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.technology": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Technology"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "technology": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "skill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "knowledge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expertise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "knowhow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "equipment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "machinery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.division": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Division"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "division": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "separation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dissection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "detachment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "disunion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "partition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "disagreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "schism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "disharmony": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "dissonance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "split": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.use_case_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Use Case #"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "use case #": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "use case no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Status#"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status#": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "status no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "status num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "status number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "category #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.potential_savings_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Potential Savings $"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "potential savings $": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "potential savings dollar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.target_savings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Target Savings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "target savings": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "savings": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "focus savings": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "goal savings": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "objective savings": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "target investment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "target money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "investment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "target reserve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "target fund": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "target hoard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.KPI_savings__realized": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "KPI Savings $ realized"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KPI savings $ realized": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "kpi savings dollar realized": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.use_case_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Use Case Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "use case name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "case": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "use case": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "case name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "use case nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "case nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "case title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "case label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "case tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "use situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.use_case_overview": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Use Case Overview"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "use case overview": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "overview": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "case overview": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "use case impression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "use case indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "use case synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "use case gestalt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "case impression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "case indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "case synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "case gestalt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "use case summary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "use case outline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.status1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.completion_FY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Completion FY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "completion FY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FY": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.KPI_comment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "KPI Comment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KPI comment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comment": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "kpi clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "kpi commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "kpi explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "kpi feedback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "kpi observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "feedback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.KPI_savings__realized_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "KPI Savings $ realized_1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KPI savings $ realized_1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "kpi savings dollar realized_1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.average_per_use_case": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Average per Use Case"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "average per use case": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mode per use case": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "norm per use case": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "mean per use case": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "median per use case": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_17": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column17"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 17": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column17": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_18": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column18"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 18": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column18": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_19": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column19"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 19": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column19": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_20": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column20"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 20": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column20": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_21": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column21"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 21": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column21": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_22": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column22"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 22": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column22": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_23": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column23"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 23": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column23": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column24": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_25": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column25"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 25": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column25": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_26": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column26"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 26": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column26": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_27": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column27"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 27": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column27": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_28": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column28"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 28": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column28": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_29": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column29"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 29": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column29": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_30": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column30"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 30": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column30": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_31": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column31"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 31": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column31": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_32": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column32"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 32": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column32": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_33": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column33"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 33": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column33": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_34": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column34"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 34": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column34": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_35": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column35"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 35": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column35": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_36": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column36"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 36": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column36": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_37": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column37"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 37": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column37": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_38": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column38"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 38": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column38": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_39": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column39"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 39": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column39": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_40": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column40"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 40": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column40": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_41": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column41"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 41": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column41": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_42": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column42"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 42": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column42": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_43": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column43"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 43": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column43": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_44": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column44"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 44": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column44": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_45": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column45"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 45": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column45": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "power_BI_data.column_46": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Power BI Data",
+			          "ConceptualProperty": "Column46"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "column 46": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column46": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "technology (power BI data)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.technology": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Technology"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "technology": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "skill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "knowledge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expertise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "knowhow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "equipment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "machinery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.division": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Division"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "division": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "separation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dissection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "detachment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "disunion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "partition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "disagreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "schism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "disharmony": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "dissonance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "split": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.use_case_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Use Case #"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "use case #": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "use case no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Status#"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status#": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "status no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "status num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "status number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "category #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade #": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.potential_savings_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Potential Savings $"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "potential savings $": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "potential savings dollar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.target_savings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Target Savings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "target savings": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "savings": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "focus savings": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "goal savings": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "objective savings": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "target investment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "target money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "investment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "target reserve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "target fund": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "target hoard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.KPI_savings__realized": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "KPI Savings $ realized"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KPI savings $ realized": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "kpi savings dollar realized": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.use_case_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Use Case Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "use case name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "case": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "use case": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "case name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "use case nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "use case tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "case nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "case title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "case label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "case tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "use situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.use_case_overview": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Use Case Overview"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "use case overview": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "overview": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "case overview": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "use case impression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "use case indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "use case synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "use case gestalt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "case impression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "case indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "case synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "case gestalt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "use case summary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "use case outline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.status1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.completion_FY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "Completion FY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "completion FY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FY": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data.KPI_comment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Technology (Power BI Data)",
+			          "ConceptualProperty": "KPI Comment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KPI comment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comment": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "kpi clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "kpi commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "kpi explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "kpi feedback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "kpi observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "feedback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "power_BI_data_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.potential_savings_": {
+			          "Target": {
+			            "Entity": "power_BI_data.potential_savings_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "power_BI_data.potential_savings_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "potential_savings__indicates_how_expensive_power_BI_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.potential_savings_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_potential_savings_"
+			        }
+			      ]
+			    },
+			    "power_BI_data_is_expensive1": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.KPI_savings__realized_1": {
+			          "Target": {
+			            "Entity": "power_BI_data.KPI_savings__realized_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "power_BI_data.KPI_savings__realized_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "KPI_savings__realized_1_indicates_how_expensive_power_BI_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.KPI_savings__realized_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_KPI_savings__realized_1"
+			        }
+			      ]
+			    },
+			    "power_BI_data_averages_per_average_per_use_case": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.average_per_use_case": {
+			          "Target": {
+			            "Entity": "power_BI_data.average_per_use_case"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Verbs": [
+			              {
+			                "average": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "per": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "power_BI_data.average_per_use_case"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "power_BI_data_average_per_average_per_use_case"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.average_per_use_case"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_average_per_use_case"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_sl__no_": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.sl__no_": {
+			          "Target": {
+			            "Entity": "power_BI_data.sl__no_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.sl__no_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_sl__no_"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_technology": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.technology": {
+			          "Target": {
+			            "Entity": "power_BI_data.technology"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.technology"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_technologies"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_division": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.division": {
+			          "Target": {
+			            "Entity": "power_BI_data.division"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.division"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_divisions"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.value": {
+			          "Target": {
+			            "Entity": "power_BI_data.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_values"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_use_case_": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.use_case_": {
+			          "Target": {
+			            "Entity": "power_BI_data.use_case_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.use_case_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_use_case_"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.status": {
+			          "Target": {
+			            "Entity": "power_BI_data.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_status"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_target_savings": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.target_savings": {
+			          "Target": {
+			            "Entity": "power_BI_data.target_savings"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.target_savings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_target_savings"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_KPI_savings__realized": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.KPI_savings__realized": {
+			          "Target": {
+			            "Entity": "power_BI_data.KPI_savings__realized"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.KPI_savings__realized"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_KPI_savings__realized"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_use_case_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.use_case_name": {
+			          "Target": {
+			            "Entity": "power_BI_data.use_case_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.use_case_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_use_case_names"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_use_case_overview": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.use_case_overview": {
+			          "Target": {
+			            "Entity": "power_BI_data.use_case_overview"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.use_case_overview"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_use_case_overviews"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_status1": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.status1": {
+			          "Target": {
+			            "Entity": "power_BI_data.status1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.status1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_statuses"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_completion_FY": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.completion_FY": {
+			          "Target": {
+			            "Entity": "power_BI_data.completion_FY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.completion_FY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_completion_FYs"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_KPI_comment": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.KPI_comment": {
+			          "Target": {
+			            "Entity": "power_BI_data.KPI_comment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.KPI_comment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_KPI_comments"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_17": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_17": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_17"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_17"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_17"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_18": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_18": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_18"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_18"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_18"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_19": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_19": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_19"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_19"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_19"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_20": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_20": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_20"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_20"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_20"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_21": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_21": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_21"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_21"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_21"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_22": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_22": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_22"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_22"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_22"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_23": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_23": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_23"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_23"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_23"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_24": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_24": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_24"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_25": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_25": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_25"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_25"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_25"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_26": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_26": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_26"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_26"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_26"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_27": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_27": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_27"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_27"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_27"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_28": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_28": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_28"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_28"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_28"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_29": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_29": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_29"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_29"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_29"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_30": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_30": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_30"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_30"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_30"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_31": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_31": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_31"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_31"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_31"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_32": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_32": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_32"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_32"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_32"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_33": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_33": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_33"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_33"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_33"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_34": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_34": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_34"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_34"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_34"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_35": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_35": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_35"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_35"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_35"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_36": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_36": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_36"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_36"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_36"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_37": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_37": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_37"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_37"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_37"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_38": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_38": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_38"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_38"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_38"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_39": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_39": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_39"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_39"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_39"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_40": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_40": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_40"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_40"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_40"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_41": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_41": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_41"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_41"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_41"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_42": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_42": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_42"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_42"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_42"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_43": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_43": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_43"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_43"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_43"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_44": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_44": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_44"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_44"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_44"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_45": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_45": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_45"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_45"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_45"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_column_46": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "power_BI_data.column_46": {
+			          "Target": {
+			            "Entity": "power_BI_data.column_46"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data.column_46"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_column_46"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_technology": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.technology": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.technology"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.technology"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_technologies"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_division": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.division": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.division"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.division"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_divisions"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.value": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_values"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_use_case_": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.use_case_": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.use_case_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.use_case_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_use_case_"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.status": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_status"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_potential_savings_": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.potential_savings_": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.potential_savings_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.potential_savings_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_potential_savings_"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_target_savings": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.target_savings": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.target_savings"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.target_savings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_target_savings"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_KPI_savings__realized": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.KPI_savings__realized": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.KPI_savings__realized"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.KPI_savings__realized"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_KPI_savings__realized"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_use_case_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.use_case_name": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.use_case_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.use_case_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_use_case_names"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_use_case_overview": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.use_case_overview": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.use_case_overview"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.use_case_overview"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_use_case_overviews"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_status1": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.status1": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.status1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.status1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_statuses"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_completion_FY": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.completion_FY": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.completion_FY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.completion_FY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_completion_FYs"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_KPI_comment": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data.KPI_comment": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data.KPI_comment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data.KPI_comment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_KPI_comments"
+			        }
+			      ]
+			    },
+			    "power_BI_data_has_technology_power_BI_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Power BI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        },
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "technology_power_BI_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "power_BI_data_have_technology_power_BI_data"
+			        }
+			      ]
+			    },
+			    "technology_power_BI_data_has_power_BI_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Technology (Power BI Data)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "technology_power_BI_data": {
+			          "Target": {
+			            "Entity": "technology_power_BI_data"
+			          }
+			        },
+			        "power_BI_data": {
+			          "Target": {
+			            "Entity": "power_BI_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "technology_power_BI_data"
+			            },
+			            "Object": {
+			              "Role": "power_BI_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "technology_power_BI_data_have_power_BI_data"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

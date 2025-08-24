@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "KNA Production KPI_R2"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a7bd2948-e649-bad2-4200-dfa5900097b8"
+  }
+}

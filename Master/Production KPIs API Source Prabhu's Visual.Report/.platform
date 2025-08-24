@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Production KPIs API Source Prabhu's Visual"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "550272d1-de0d-ae83-4941-53f9d1ab1635"
+  }
+}

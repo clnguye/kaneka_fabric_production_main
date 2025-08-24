@@ -1,0 +1,390 @@
+table 'Power BI Data'
+	lineageTag: f499aad1-466c-40d2-9478-23b4424c9106
+
+	column 'Sl. No.'
+		dataType: int64
+		formatString: 0
+		lineageTag: 2c3d4c7b-7a2d-455f-9f15-0cf2b953a749
+		summarizeBy: sum
+		sourceColumn: Sl. No.
+
+		annotation SummarizationSetBy = Automatic
+
+	column Technology
+		dataType: string
+		lineageTag: e4414747-47d0-40a5-af3a-4786b643e32b
+		summarizeBy: none
+		sourceColumn: Technology
+
+		annotation SummarizationSetBy = Automatic
+
+	column Division
+		dataType: string
+		lineageTag: c9da48eb-f170-4d75-aae6-c9582b679ae6
+		summarizeBy: none
+		sourceColumn: Division
+
+		annotation SummarizationSetBy = Automatic
+
+	column Value
+		dataType: string
+		lineageTag: 6f35bc2a-7fa2-48fa-b944-97d7740d95c2
+		summarizeBy: none
+		sourceColumn: Value
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Use Case #'
+		dataType: string
+		lineageTag: 94fbe394-9e7f-45dd-b779-ae395a365812
+		summarizeBy: none
+		sourceColumn: Use Case #
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status#
+		dataType: string
+		lineageTag: adc65a8f-0185-4b53-979d-efa4d4f6a47f
+		summarizeBy: none
+		sourceColumn: Status#
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Potential Savings $'
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 3837eeaf-e106-4eda-a065-ebb54b7d9362
+		summarizeBy: sum
+		sourceColumn: Potential Savings $
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Target Savings'
+		dataType: string
+		lineageTag: 90dab754-1223-4604-a469-f71d46cf0d3c
+		summarizeBy: none
+		sourceColumn: Target Savings
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'KPI Savings $ realized'
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 54963dda-b594-4e22-b73b-6596a36849b9
+		summarizeBy: sum
+		sourceColumn: KPI Savings $ realized
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Use Case Name'
+		dataType: string
+		lineageTag: fd3f2365-4b0d-4f79-8809-fcc059923b95
+		summarizeBy: none
+		sourceColumn: Use Case Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Use Case Overview'
+		dataType: string
+		lineageTag: 0dc2b35d-3edf-45d3-9d5d-6024399ec5e3
+		summarizeBy: none
+		sourceColumn: Use Case Overview
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: 40d0246b-0512-4c03-81ba-c595ea1eb010
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Completion FY'
+		dataType: string
+		lineageTag: 2b8f74f7-d55d-4968-99bb-ee3de2765936
+		summarizeBy: none
+		sourceColumn: Completion FY
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'KPI Comment'
+		dataType: string
+		lineageTag: 55671f57-10c1-45f6-a391-ba824fa8db11
+		summarizeBy: none
+		sourceColumn: KPI Comment
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'KPI Savings $ realized_1'
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 2d99bf05-b6cd-44d9-8849-babbbd14c877
+		summarizeBy: sum
+		sourceColumn: KPI Savings $ realized_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Average per Use Case'
+		dataType: string
+		lineageTag: 039159ae-dd71-465e-ad3c-0a55805de6a1
+		summarizeBy: none
+		sourceColumn: Average per Use Case
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column17
+		dataType: string
+		lineageTag: c187f554-97bf-47f1-8653-802b69586495
+		summarizeBy: none
+		sourceColumn: Column17
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column18
+		dataType: string
+		lineageTag: 312a13c5-14cf-45ad-a988-b6846cf2ba28
+		summarizeBy: none
+		sourceColumn: Column18
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column19
+		dataType: string
+		lineageTag: 50d30f93-12b9-4d56-901c-57356c7a7c31
+		summarizeBy: none
+		sourceColumn: Column19
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column20
+		dataType: string
+		lineageTag: 58d1ed8c-3669-4f67-a5eb-0d248ba88038
+		summarizeBy: none
+		sourceColumn: Column20
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column21
+		dataType: string
+		lineageTag: f7dd85ff-a6fb-4965-9013-c56e74ff5fd8
+		summarizeBy: none
+		sourceColumn: Column21
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column22
+		dataType: string
+		lineageTag: eb75efaa-1dad-4aa3-9b66-83398bf59efe
+		summarizeBy: none
+		sourceColumn: Column22
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column23
+		dataType: string
+		lineageTag: 2f7dd32a-31e3-4971-ab1e-417d3547bdbd
+		summarizeBy: none
+		sourceColumn: Column23
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column24
+		dataType: string
+		lineageTag: bf26e76c-cb07-4ccf-81fb-9866b86ed0fd
+		summarizeBy: none
+		sourceColumn: Column24
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column25
+		dataType: string
+		lineageTag: 0dae5d82-0ef2-4470-945b-4c414ed6bf32
+		summarizeBy: none
+		sourceColumn: Column25
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column26
+		dataType: string
+		lineageTag: 2d65030c-d189-4781-8896-5e9659aa9ecb
+		summarizeBy: none
+		sourceColumn: Column26
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column27
+		dataType: string
+		lineageTag: 296fc48e-13f4-49b8-aa63-11861306e738
+		summarizeBy: none
+		sourceColumn: Column27
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column28
+		dataType: string
+		lineageTag: ac93890f-5382-4a3d-b237-ee45d133c4b4
+		summarizeBy: none
+		sourceColumn: Column28
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column29
+		dataType: string
+		lineageTag: 37c98527-9a1c-41ed-9e3d-d08d242083f1
+		summarizeBy: none
+		sourceColumn: Column29
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column30
+		dataType: string
+		lineageTag: 65850208-bd61-4c7a-9743-29ce3f2a2e2e
+		summarizeBy: none
+		sourceColumn: Column30
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column31
+		dataType: string
+		lineageTag: e337daca-fcb9-4c79-84c7-67c5515a8110
+		summarizeBy: none
+		sourceColumn: Column31
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column32
+		dataType: string
+		lineageTag: 7571231a-d33f-46e7-9ef6-de40b64633a8
+		summarizeBy: none
+		sourceColumn: Column32
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column33
+		dataType: string
+		lineageTag: 668a9f75-4332-444a-95bc-6f1710eb4fe8
+		summarizeBy: none
+		sourceColumn: Column33
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column34
+		dataType: string
+		lineageTag: 84e7060b-abef-485d-a368-3ed3a6ac039b
+		summarizeBy: none
+		sourceColumn: Column34
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column35
+		dataType: string
+		lineageTag: ae41fbf9-08c5-494c-8018-d88fe397f9ca
+		summarizeBy: none
+		sourceColumn: Column35
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column36
+		dataType: string
+		lineageTag: 92852cf4-753c-40ce-a27e-8be9f806b82f
+		summarizeBy: none
+		sourceColumn: Column36
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column37
+		dataType: string
+		lineageTag: cf126f58-148c-46bc-91c5-a80b7d020958
+		summarizeBy: none
+		sourceColumn: Column37
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column38
+		dataType: string
+		lineageTag: a006525e-2432-4eee-be73-f2af7110d690
+		summarizeBy: none
+		sourceColumn: Column38
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column39
+		dataType: string
+		lineageTag: d9bfea54-0aff-4dd1-a895-4b7a2a0f287f
+		summarizeBy: none
+		sourceColumn: Column39
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column40
+		dataType: string
+		lineageTag: 70135d2b-9e8b-46de-8ccd-8e45a1da5da2
+		summarizeBy: none
+		sourceColumn: Column40
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column41
+		dataType: string
+		lineageTag: 2d72a470-243f-4360-ae8f-2b2142d410f7
+		summarizeBy: none
+		sourceColumn: Column41
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column42
+		dataType: string
+		lineageTag: 6bc97d20-8c6f-422c-b57a-ccfe6f74c67b
+		summarizeBy: none
+		sourceColumn: Column42
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column43
+		dataType: string
+		lineageTag: 761e0cec-d998-4c9e-814e-29818d8c5fcd
+		summarizeBy: none
+		sourceColumn: Column43
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column44
+		dataType: string
+		lineageTag: fd5a5461-6fc0-4b1a-a019-d36f4d4400f3
+		summarizeBy: none
+		sourceColumn: Column44
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column45
+		dataType: string
+		lineageTag: b94229bc-5253-4a67-97c6-9121f901a0ec
+		summarizeBy: none
+		sourceColumn: Column45
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column46
+		dataType: string
+		lineageTag: cbc36984-2e68-4658-b0a7-8def032326df
+		summarizeBy: none
+		sourceColumn: Column46
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Power BI Data' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(Web.Contents("https://kanekana.sharepoint.com/sites/dt/PMO/Project%20Execution/Active%20Projects/Operations%20&%20Maintenance/SEEQ/2025%20Manufacturing%20Analytics%20KPI%20(PowerBI)_Main.xlsx"), null, true),
+				    #"Power BI Data_Sheet" = Source{[Item="Power BI Data",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Power BI Data_Sheet", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Sl. No.", Int64.Type}, {"Technology", type text}, {"Division", type text}, {"Value", type text}, {"Use Case #", type text}, {"Status#", type text}, {"Potential Savings $", Int64.Type}, {"Target Savings", type text}, {"KPI Savings $ realized", Int64.Type}, {"Use Case Name", type text}, {"Use Case Overview", type text}, {"Status", type text}, {"Completion FY", type any}, {"KPI Comment", type text}, {"KPI Savings $ realized_1", Int64.Type}, {"Average per Use Case", type text}, {"Column17", type any}, {"Column18", type any}, {"Column19", type any}, {"Column20", type any}, {"Column21", type any}, {"Column22", type any}, {"Column23", type any}, {"Column24", type any}, {"Column25", type any}, {"Column26", type any}, {"Column27", type any}, {"Column28", type any}, {"Column29", type any}, {"Column30", type any}, {"Column31", type any}, {"Column32", type any}, {"Column33", type any}, {"Column34", type any}, {"Column35", type any}, {"Column36", type any}, {"Column37", type any}, {"Column38", type any}, {"Column39", type any}, {"Column40", type any}, {"Column41", type any}, {"Column42", type any}, {"Column43", type any}, {"Column44", type any}, {"Column45", type any}, {"Column46", type any}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

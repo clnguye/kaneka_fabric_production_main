@@ -1,0 +1,6 @@
+relationship AutoDetected_8805b32a-64ed-48a7-985d-a0241429c6dd
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Technology (Power BI Data)'.'Use Case #'
+	toColumn: 'Power BI Data'.'Use Case #'
+
