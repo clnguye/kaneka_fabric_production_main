@@ -1,0 +1,130 @@
+table MOD
+	lineageTag: 9570fc36-7589-4a6d-aef7-4d2ab64469a9
+
+	column 'Sl. No'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 385e8c3b-8ad9-426c-bc3c-005e0be3aedc
+		summarizeBy: none
+		sourceColumn: Sl. No
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = User
+
+	column 'Date (DD/MM/YY)'
+		dataType: dateTime
+		formatString: mm/dd/yyyy
+		lineageTag: b32f9773-ed7c-4bba-be07-17fc810c6dcf
+		summarizeBy: none
+		sourceColumn: Date (DD/MM/YY)
+
+		variation Variation
+			isDefault
+			relationship: 4b6c5033-ac08-4e25-9878-48570a1028ae
+			defaultHierarchy: LocalDateTable_849aaee5-724d-44ed-b77b-b3cf97c5e130.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Plant
+		dataType: string
+		lineageTag: d20442c5-a61f-4252-a9a4-d0f26916be61
+		summarizeBy: none
+		sourceColumn: Plant
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Planned Prod (Klbs or MT-NTR)'
+		dataType: int64
+		formatString: 0
+		lineageTag: d2133665-c34c-46c4-ad07-140f65ff5ad9
+		summarizeBy: none
+		sourceColumn: Planned Prod (Klbs or MT-NTR)
+
+		annotation SummarizationSetBy = User
+
+	column 'Act Prod Amt (Klbs or MT-NTR)'
+		dataType: int64
+		formatString: 0
+		lineageTag: fda755a9-bef2-452a-aa37-069b83d43106
+		summarizeBy: none
+		sourceColumn: Act Prod Amt (Klbs or MT-NTR)
+
+		annotation SummarizationSetBy = User
+
+	column 'OEE (Net) %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 9a45db95-2e1e-4e74-aa54-659fe5ee43c6
+		summarizeBy: none
+		sourceColumn: OEE (Net) %
+
+		annotation SummarizationSetBy = User
+
+	column 'Trouble DT %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: d1518249-9517-49f0-802c-9091ac363f42
+		summarizeBy: none
+		sourceColumn: Trouble DT %
+
+		annotation SummarizationSetBy = User
+
+	column 'Quality %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: de386788-5f3d-4187-9fe7-5efd6d7f12a9
+		summarizeBy: none
+		sourceColumn: Quality %
+
+		annotation SummarizationSetBy = User
+
+	column 'Yield %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 595a29aa-d4df-425a-8b82-9b21d6e7f23a
+		summarizeBy: none
+		sourceColumn: Yield %
+
+		annotation SummarizationSetBy = User
+
+	column FY-
+		dataType: int64
+		formatString: 0
+		lineageTag: aa22b908-37fb-426d-82be-ad63e633313a
+		summarizeBy: none
+		sourceColumn: FY-
+
+		annotation SummarizationSetBy = User
+
+	column 'FY Q-'
+		dataType: int64
+		formatString: 0
+		lineageTag: e5667006-06e4-4dfb-b210-ae811f442689
+		summarizeBy: none
+		sourceColumn: FY Q-
+
+		annotation SummarizationSetBy = User
+
+	partition MOD = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\prabhu.ramachandran\OneDrive - Kaneka North America LLC\PMO\Project Execution\Active Projects\Operations & Maintenance\Production KPI\2025_Production Performance KPI (Power BI).xlsx"), null, true),
+				    MOD_Sheet = Source{[Item="MOD",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(MOD_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Sl. No", Int64.Type}, {"Date (DD/MM/YY)", type date}, {"Date (MM-YY)", type date}, {"Plant", type text}, {"Planned Prod (Klbs or MT-NTR)", Int64.Type}, {"Act Prod Amt (Klbs or MT-NTR)", Int64.Type}, {"OEE (Net) %", type number}, {"Trouble DT %", type number}, {"Quality %", type number}, {"Yield %", type number}, {"FY-", Int64.Type}, {"FY Q-", Int64.Type}}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Changed Type",{{"OEE (Net) %", Percentage.Type}, {"Trouble DT %", Percentage.Type}, {"Quality %", Percentage.Type}, {"Yield %", Percentage.Type}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type1",{"Date (MM-YY)"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

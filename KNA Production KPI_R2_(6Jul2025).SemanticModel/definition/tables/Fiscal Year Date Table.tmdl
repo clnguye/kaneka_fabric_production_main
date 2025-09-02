@@ -1,0 +1,66 @@
+table 'Fiscal Year Date Table'
+	lineageTag: 720db8d9-c93b-41fc-9739-dce78d499323
+
+	column Date
+		formatString: mm/dd/yyyy
+		lineageTag: d26a904d-44ce-4bcd-916e-a572c3ac36c5
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: 3cf63de8-ba02-427c-8091-9ea4045bacc5
+			defaultHierarchy: LocalDateTable_feac499d-32ba-4c98-b06b-fd44406fc352.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column 'Fiscal Month Number' = MONTH(EDATE('Fiscal Year Date Table'[Date], -3))
+		formatString: 0
+		lineageTag: cba75b8f-ec96-49d7-a76d-bb14ec3ba11f
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fiscal Quater Number' = QUARTER(EDATE('Fiscal Year Date Table'[Date], -3))
+		formatString: 0
+		lineageTag: 289d3c47-15ba-4dc2-aa06-6c398b420764
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fiscal Year' = ```
+			
+			VAR _CurrYear = YEAR('Fiscal Year Date Table'[Date])
+			VAR _NextYear = _CurrYear + 1
+			VAR _PrevYear = _CurrYear - 1
+			
+			VAR CurrYearShort = FORMAT(_CurrYear, "0000")
+			VAR NextYearShort = FORMAT(_NextYear, "0000")
+			VAR PrevYearShort = FORMAT(_PrevYear, "0000")
+			
+			RETURN
+				
+				SWITCH(
+					TRUE(),
+					MONTH('Fiscal Year Date Table'[Date]) >=4,
+					CurrYearShort & "-" & NextYearShort,
+					PrevYearShort & "-" & CurrYearShort
+			
+				)
+			```
+		lineageTag: a24f4757-0caf-4233-a256-8a4603857563
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Fiscal Year Date Table' = calculated
+		mode: import
+		source = CALENDARAUTO(3)
+
+	annotation PBI_Id = 80ada92ab68e4649a29850fed040bab2
+

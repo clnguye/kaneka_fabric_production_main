@@ -1,0 +1,34 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Production Performance KPIs","NTR","MS","MOD","CPVC","API"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.146.1254.0 (25.08)+791a7518fadc83da883d79322a2658aff57c8db3
+
+ref table 'Production Performance KPIs'
+ref table DateTableTemplate_ab40b57b-94d2-4128-9173-d63359a3e5c7
+ref table LocalDateTable_51ab9015-7cea-442e-98b4-1d378c94ebcf
+ref table NTR
+ref table LocalDateTable_19301cd2-cf02-484c-84e5-e5d862a5273c
+ref table MS
+ref table LocalDateTable_4546127c-a42c-4536-8baa-471d571a97ba
+ref table MOD
+ref table LocalDateTable_849aaee5-724d-44ed-b77b-b3cf97c5e130
+ref table CPVC
+ref table LocalDateTable_6e49b538-e34d-4a0e-b2ac-cfb7d2a8ca06
+ref table API
+ref table LocalDateTable_14498b6d-6a33-4c7b-b58d-c78b153fb924
+ref table 'Fiscal Year Date Table'
+ref table LocalDateTable_feac499d-32ba-4c98-b06b-fd44406fc352
+ref table Calendar
+ref table LocalDateTable_778eaaa7-d264-44b3-8a06-2380872a1857
+
+ref cultureInfo en-US
+

@@ -1,0 +1,40 @@
+relationship e908c03f-3c9f-424f-b4e5-dc243cb79187
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Production Performance KPIs'.'Date (DD/MM/YY)'
+	toColumn: LocalDateTable_51ab9015-7cea-442e-98b4-1d378c94ebcf.Date
+
+relationship beef6d43-037c-4b66-a152-972998e764c5
+	joinOnDateBehavior: datePartOnly
+	fromColumn: NTR.'Date (DD/MM/YY)'
+	toColumn: LocalDateTable_19301cd2-cf02-484c-84e5-e5d862a5273c.Date
+
+relationship 20b68bab-8055-479c-8ab7-fb4959162054
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MS.'Date (DD/MM/YY)'
+	toColumn: LocalDateTable_4546127c-a42c-4536-8baa-471d571a97ba.Date
+
+relationship 4b6c5033-ac08-4e25-9878-48570a1028ae
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MOD.'Date (DD/MM/YY)'
+	toColumn: LocalDateTable_849aaee5-724d-44ed-b77b-b3cf97c5e130.Date
+
+relationship 360aa988-b730-4b5e-a833-1ece6aaad5f2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CPVC.'Date (DD/MM/YY)'
+	toColumn: LocalDateTable_6e49b538-e34d-4a0e-b2ac-cfb7d2a8ca06.Date
+
+relationship a765831b-5882-412d-98df-de1ac892325b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: API.'Date (DD/MM/YY)'
+	toColumn: LocalDateTable_14498b6d-6a33-4c7b-b58d-c78b153fb924.Date
+
+relationship 3cf63de8-ba02-427c-8091-9ea4045bacc5
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Fiscal Year Date Table'.Date
+	toColumn: LocalDateTable_feac499d-32ba-4c98-b06b-fd44406fc352.Date
+
+relationship ee9e7f38-c25a-49fe-9502-208e769999a8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.Date
+	toColumn: LocalDateTable_778eaaa7-d264-44b3-8a06-2380872a1857.Date
+

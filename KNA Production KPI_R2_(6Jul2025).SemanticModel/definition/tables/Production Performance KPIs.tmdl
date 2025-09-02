@@ -1,0 +1,170 @@
+table 'Production Performance KPIs'
+	lineageTag: ca4e7b73-48de-430b-a9d8-2a06c34ab344
+
+	column 'Sl. No'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e035c471-d102-4f1c-aa84-99e846a3fc58
+		summarizeBy: none
+		sourceColumn: Sl. No
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = User
+
+	column 'Date (DD/MM/YY)'
+		dataType: dateTime
+		formatString: mm/dd/yyyy
+		lineageTag: 55c4b9b9-f4df-483b-9447-8a9db5ef2d27
+		summarizeBy: none
+		sourceColumn: Date (DD/MM/YY)
+
+		variation Variation
+			isDefault
+			relationship: e908c03f-3c9f-424f-b4e5-dc243cb79187
+			defaultHierarchy: LocalDateTable_51ab9015-7cea-442e-98b4-1d378c94ebcf.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Plant
+		dataType: string
+		lineageTag: 811eef2d-abca-4824-928e-aa17defb5b59
+		summarizeBy: none
+		sourceColumn: Plant
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Planned Prod (Klbs or MT-NTR)'
+		dataType: int64
+		formatString: 0.0
+		lineageTag: 49902c23-89ad-4f69-99a3-bac0656054d0
+		summarizeBy: none
+		sourceColumn: Planned Prod (Klbs or MT-NTR)
+
+		annotation SummarizationSetBy = User
+
+	column 'Act Prod Amt (Klbs or MT-NTR)'
+		dataType: int64
+		formatString: 0.0
+		lineageTag: 4ba15538-36ca-4cff-ab16-9cbf86165bc8
+		summarizeBy: none
+		sourceColumn: Act Prod Amt (Klbs or MT-NTR)
+
+		annotation SummarizationSetBy = User
+
+	column 'OEE (Net) %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 1eadeb8a-ad24-44c8-9eea-78d852898341
+		summarizeBy: none
+		sourceColumn: OEE (Net) %
+
+		annotation SummarizationSetBy = User
+
+	column 'Trouble DT %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 512b4718-3fd9-42de-bdcb-3ee337344382
+		summarizeBy: none
+		sourceColumn: Trouble DT %
+
+		annotation SummarizationSetBy = User
+
+	column 'Quality %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: f1fc0210-dceb-474d-b999-e6b86a99bc9f
+		summarizeBy: none
+		sourceColumn: Quality %
+
+		annotation SummarizationSetBy = User
+
+	column 'Yield %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 1e31a71d-a98e-480d-8e7c-5f699bc106d6
+		summarizeBy: none
+		sourceColumn: Yield %
+
+		annotation SummarizationSetBy = User
+
+	column FY-
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d08dded-931c-44c1-9c88-bfdc058f9876
+		summarizeBy: none
+		sourceColumn: FY-
+
+		annotation SummarizationSetBy = User
+
+	column 'FY Q-'
+		dataType: int64
+		formatString: 0
+		lineageTag: 05232727-74e2-4bdb-a761-72bd59c8cc11
+		summarizeBy: none
+		sourceColumn: FY Q-
+
+		annotation SummarizationSetBy = User
+
+	column Column13
+		dataType: string
+		lineageTag: 01f0937e-1562-4353-bb3c-adfc6fbd89f0
+		summarizeBy: none
+		sourceColumn: Column13
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column14
+		dataType: string
+		lineageTag: e8d0d3d4-f481-4906-ab95-02bd5f74bc1b
+		summarizeBy: none
+		sourceColumn: Column14
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column15
+		dataType: string
+		lineageTag: 8b2e1670-48d4-40d2-9716-d151ff6c9c17
+		summarizeBy: none
+		sourceColumn: Column15
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column16
+		dataType: string
+		lineageTag: 2d862d21-f36a-4451-9505-030cd4aa140a
+		summarizeBy: none
+		sourceColumn: Column16
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column17
+		dataType: string
+		lineageTag: d7b2de9e-fa63-495d-b9f0-662bc97b9421
+		summarizeBy: none
+		sourceColumn: Column17
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Production Performance KPIs' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\prabhu.ramachandran\OneDrive - Kaneka North America LLC\PMO\Project Execution\Active Projects\Operations & Maintenance\Production KPI\2025_Production Performance KPI (Power BI).xlsx"), null, true),
+				    #"Production Performance KPIs_Sheet" = Source{[Item="Production Performance KPIs",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Production Performance KPIs_Sheet", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Sl. No", Int64.Type}, {"Date (DD/MM/YY)", type date}, {"Date (MM-YY)", type date}, {"Plant", type text}, {"Planned Prod (Klbs or MT-NTR)", Int64.Type}, {"Act Prod Amt (Klbs or MT-NTR)", Int64.Type}, {"OEE (Net) %", type number}, {"Trouble DT %", type number}, {"Quality %", type number}, {"Yield %", type number}, {"FY-", Int64.Type}, {"FY Q-", Int64.Type}}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Changed Type",{{"OEE (Net) %", Percentage.Type}, {"Trouble DT %", Percentage.Type}, {"Quality %", Percentage.Type}, {"Yield %", Percentage.Type}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type1",{"Date (MM-YY)"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

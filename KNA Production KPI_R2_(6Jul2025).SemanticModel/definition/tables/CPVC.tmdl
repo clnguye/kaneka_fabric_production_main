@@ -1,0 +1,130 @@
+table CPVC
+	lineageTag: 7f330b42-a87c-4f8e-add3-f0f053c8e4e3
+
+	column 'Sl. No'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 88e10908-c0ad-430e-b9a7-d06ae3f71856
+		summarizeBy: none
+		sourceColumn: Sl. No
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = User
+
+	column 'Date (DD/MM/YY)'
+		dataType: dateTime
+		formatString: mm/dd/yyyy
+		lineageTag: 7a92da76-f18f-42c8-ad68-8fdf0c354723
+		summarizeBy: none
+		sourceColumn: Date (DD/MM/YY)
+
+		variation Variation
+			isDefault
+			relationship: 360aa988-b730-4b5e-a833-1ece6aaad5f2
+			defaultHierarchy: LocalDateTable_6e49b538-e34d-4a0e-b2ac-cfb7d2a8ca06.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Plant
+		dataType: string
+		lineageTag: 7c1305fb-0b32-42a1-b893-d2a63989c54a
+		summarizeBy: none
+		sourceColumn: Plant
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Planned Prod (Klbs or MT-NTR)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 29436c5a-0ac3-4a2d-be7d-eaf8f0cfa81c
+		summarizeBy: none
+		sourceColumn: Planned Prod (Klbs or MT-NTR)
+
+		annotation SummarizationSetBy = User
+
+	column 'Act Prod Amt (Klbs or MT-NTR)'
+		dataType: int64
+		formatString: 0
+		lineageTag: ec6d814b-db4a-40ff-a2f0-5a02df3b2989
+		summarizeBy: none
+		sourceColumn: Act Prod Amt (Klbs or MT-NTR)
+
+		annotation SummarizationSetBy = User
+
+	column 'OEE (Net) %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: aecdea6f-834b-44b0-805e-380aedac69f0
+		summarizeBy: none
+		sourceColumn: OEE (Net) %
+
+		annotation SummarizationSetBy = User
+
+	column 'Trouble DT %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: a24983ee-ad6c-4ac9-96e0-141c5a9193a3
+		summarizeBy: none
+		sourceColumn: Trouble DT %
+
+		annotation SummarizationSetBy = User
+
+	column 'Quality %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 0ee2aab4-15c6-4d4b-a50d-7dbc9aa744a4
+		summarizeBy: none
+		sourceColumn: Quality %
+
+		annotation SummarizationSetBy = User
+
+	column 'Yield %'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 1b9fb7a1-9925-45f6-81af-b2dc058e5a81
+		summarizeBy: none
+		sourceColumn: Yield %
+
+		annotation SummarizationSetBy = User
+
+	column FY-
+		dataType: int64
+		formatString: 0
+		lineageTag: 7c32751d-f207-41a1-93e7-14d14b866635
+		summarizeBy: none
+		sourceColumn: FY-
+
+		annotation SummarizationSetBy = User
+
+	column 'FY Q-'
+		dataType: int64
+		formatString: 0
+		lineageTag: 74e09252-f4ee-4892-b2a5-c5474f2c3e2d
+		summarizeBy: none
+		sourceColumn: FY Q-
+
+		annotation SummarizationSetBy = User
+
+	partition CPVC = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\prabhu.ramachandran\OneDrive - Kaneka North America LLC\PMO\Project Execution\Active Projects\Operations & Maintenance\Production KPI\2025_Production Performance KPI (Power BI).xlsx"), null, true),
+				    CPVC_Sheet = Source{[Item="CPVC",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(CPVC_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Sl. No", Int64.Type}, {"Date (DD/MM/YY)", type date}, {"Date (MM-YY)", type date}, {"Plant", type text}, {"Planned Prod (Klbs or MT-NTR)", Int64.Type}, {"Act Prod Amt (Klbs or MT-NTR)", Int64.Type}, {"OEE (Net) %", type number}, {"Trouble DT %", type number}, {"Quality %", type number}, {"Yield %", type number}, {"FY-", Int64.Type}, {"FY Q-", Int64.Type}}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Changed Type",{{"OEE (Net) %", Percentage.Type}, {"Trouble DT %", Percentage.Type}, {"Quality %", Percentage.Type}, {"Yield %", Percentage.Type}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type1",{"Date (MM-YY)"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

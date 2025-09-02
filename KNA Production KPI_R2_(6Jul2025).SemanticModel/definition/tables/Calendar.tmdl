@@ -1,0 +1,112 @@
+table Calendar
+	lineageTag: ff8d9302-9d9f-4f22-a1d1-492c43ced857
+
+	column Date
+		formatString: General Date
+		lineageTag: 0c7c5275-7f8c-4891-8cfb-b4ef5cb97972
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: ee9e7f38-c25a-49fe-9502-208e769999a8
+			defaultHierarchy: LocalDateTable_778eaaa7-d264-44b3-8a06-2380872a1857.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sort
+		formatString: 0
+		lineageTag: ecb63439-d08b-4416-980c-a655f52d5187
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Sort]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		lineageTag: c78500f5-6ca9-453f-8c2c-0ae90513c6d8
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Qtr
+		lineageTag: 4f0fbdda-1b52-4921-9568-9afa915ab98e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Qtr]
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearMonth
+		lineageTag: 2b38bd9c-4ebf-4fa2-95c8-8fdfc6fb5a2b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [YearMonth]
+
+		annotation SummarizationSetBy = Automatic
+
+	column FMonth
+		lineageTag: 4946e352-bbb7-465e-9a61-a024a8766b91
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [FMonth]
+
+		annotation SummarizationSetBy = Automatic
+
+	column FQtr
+		lineageTag: 284c3142-84bf-4faa-9b18-12162de9dc33
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [FQtr]
+
+		annotation SummarizationSetBy = Automatic
+
+	column FSort
+		lineageTag: ff8ad7ff-857c-41ab-b149-34dd5be3fe4f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [FSort]
+
+		annotation SummarizationSetBy = Automatic
+
+	column FYearMonth
+		lineageTag: 0ac2ba1b-98c4-4bb4-b2fb-9208239d5268
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [FYearMonth]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendar = calculated
+		mode: import
+		source = ```
+				
+				VAR YrEndMonth = 3
+				VAR MyTable = CALENDARAUTO(YrEndMonth)
+				VAR DtTable =
+				    ADDCOLUMNS(
+				        MyTable,
+				
+				        -- Calendar Year Columns --
+				        "Sort", YEAR([Date]) * 100 + MONTH([Date]),
+				        "Month", FORMAT([Date], "mmm"),
+				        "Qtr", FORMAT([Date], "\QQ"),
+				        "YearMonth", FORMAT([Date], "mmm-yy"),
+				
+				        -- Fiscal Year Columns --
+				        "FMonth", FORMAT([Date], "mmm"),
+				        "FQtr", FORMAT(EDATE([Date], -3), "\QQ"),
+				        "FSort", YEAR(EDATE([Date], -3)) & UNICHAR(MONTH(EDATE([Date], -3)) + 64),
+				        "FYearMonth", FORMAT([Date], "mmm-") & IF(MONTH([Date]) > 3, FORMAT(EDATE([Date], 9), "yy"), FORMAT([Date], "yy"))
+				    )
+				RETURN
+				DtTable
+				
+				
+				```
+
+	annotation PBI_Id = ba66baa30ae647be9cea4fdfdc4ea05c
+
